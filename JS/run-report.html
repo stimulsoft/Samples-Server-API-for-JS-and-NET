@@ -1,0 +1,77 @@
+<html>
+<head>
+    <script type="text/javascript">
+
+	function Connect()
+	{
+		var req = new XMLHttpRequest();
+		
+		req.open('GET', 'http://localhost:40010/1/login', false);
+		req.setRequestHeader("x-sti-UserName", "1@1.com");
+		req.setRequestHeader("x-sti-Password", "111111");
+		
+		req.send();
+		
+		var data = JSON.parse(req.responseText);
+
+		return data.ResultSessionKey;
+	}
+
+	function RunReport()
+	{
+		// Create snapshot
+		var sessionKey = Connect();
+		
+		var req_createSnap = new XMLHttpRequest();
+		req_createSnap.open('POST', 'http://localhost:40010/1/reportsnapshots', false);
+		req_createSnap.setRequestHeader("x-sti-SessionKey", sessionKey);
+		
+		var expiriesDate = new Date();
+		expiriesDate = new Date(expiriesDate.getTime() + 5*60000);
+		
+		var event = {'Ident': 'ReportSnapshotItem', 'Name': '001', 'Description': '001', 'Expires': expiriesDate};
+		event = JSON.stringify(event);
+		req_createSnap.send(event);
+		var resultCreateSnapshot = JSON.parse(req_createSnap.responseText);
+			
+		var reportKey = '30bca27f62594b27b46d6f000b50f717';
+		var snapshotKey = 'd1a3c34ef01c40c79c067118b142816c';
+
+		// Run report to the snapshot
+		var req_runReport = new XMLHttpRequest();
+		req_runReport.open('PUT', 'http://localhost:40010/1/reporttemplates/' + reportKey + '/run', false);
+		req_runReport.setRequestHeader("x-sti-SessionKey", sessionKey);
+		req_runReport.setRequestHeader("x-sti-DestinationItemKey", snapshotKey);
+		
+		req_runReport.send();
+		
+		var data = JSON.parse(req_runReport.responseText);
+		
+		// Share snapshot
+		var req_shareItem = new XMLHttpRequest();
+		
+		req_shareItem.open('PUT', 'http://localhost:40010/1/items/' + snapshotKey + '/share', false);
+		req_shareItem.setRequestHeader("x-sti-SessionKey", sessionKey);
+		var event = {'ShareLevel':'Public', 'ShareExpires': expiriesDate};
+		event = JSON.stringify(event);
+		req_shareItem.send(event);
+
+		// Get share url
+		var req_shareGetUrl = new XMLHttpRequest();
+		req_shareGetUrl.open('GET', 'http://localhost:40010/1/items/' + snapshotKey + '/share', false);
+		req_shareGetUrl.setRequestHeader("x-sti-SessionKey", sessionKey);
+		req_shareGetUrl.send();
+		
+		var resultShareGetUrl = JSON.parse(req_shareGetUrl.responseText);
+		var url = resultShareGetUrl.ResultUrl
+		
+		// open report by the share url
+		location.href = url;
+	}
+
+    </script>
+
+<body>
+	<input type="button" onclick="RunReport()" value="RunReport"/>
+</body>
+</html>
