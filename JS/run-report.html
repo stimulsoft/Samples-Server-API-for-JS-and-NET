@@ -35,7 +35,7 @@
 		var resultCreateSnapshot = JSON.parse(req_createSnap.responseText);
 			
 		var reportKey = '30bca27f62594b27b46d6f000b50f717';
-		var snapshotKey = 'd1a3c34ef01c40c79c067118b142816c';
+		var snapshotKey = resultCreateSnapshot.ResultItems[0].Key;
 
 		// Run report to the snapshot
 		var req_runReport = new XMLHttpRequest();
