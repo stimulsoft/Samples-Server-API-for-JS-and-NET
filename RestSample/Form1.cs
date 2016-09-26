@@ -55,13 +55,13 @@ namespace RestSample
             Request(requestCreateSnapshot, postData);
             // Check Result
             var s = GetResponseResult(requestCreateSnapshot);
-            json = JObject.Parse(s);
-            var items = ((JArray)json["Items"]);
+            var json = JObject.Parse(s);
+            var items = ((JArray)json["ResultItems"]);
             #endregion
 
             // Run Report to Snapshot
-            var reportItem = "4e95a3bda6a24caf8660a133adfeab3a";
-            var reportSnapshotItem = "c390dc525fb94da18a8d05bda114e601";
+            var reportItem = "30bca27f62594b27b46d6f000b50f717";
+            var reportSnapshotItem = items[0]["Key"];
 
             url = "http://localhost:40010/1/reporttemplates/" + reportItem + "/run";
             var requestReportRun = WebRequest.Create(url);
