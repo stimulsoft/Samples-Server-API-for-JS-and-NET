@@ -4,6 +4,7 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Copy Report Template to Other Workspaces
 * Show All Workspaces
 * Use REST API
 
