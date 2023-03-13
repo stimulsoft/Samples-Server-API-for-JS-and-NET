@@ -22,7 +22,7 @@ namespace RestSample
         private void Form1_Load(object sender, EventArgs e)
         {
             var url = "";
-            string postData = "";
+            var postData = "";
 
             // Items
             //var filefolderKey = "10b5e54e99554805b95ad4d43b64f21d";
@@ -53,15 +53,16 @@ namespace RestSample
 
             postData = "{'Ident': 'ReportSnapshotItem', 'Name': 'ReportSnapshot01', 'Description': ''}";
             Request(requestCreateSnapshot, postData);
+
             // Check Result
             var s = GetResponseResult(requestCreateSnapshot);
-            var json = JObject.Parse(s);
-            var items = ((JArray)json["ResultItems"]);
+            var json2 = JObject.Parse(s);
+            var items = ((JArray)json2["ResultItems"]);
             #endregion
 
             // Run Report to Snapshot
             var reportItem = "30bca27f62594b27b46d6f000b50f717";
-            var reportSnapshotItem = items[0]["Key"];
+            var reportSnapshotItem = (string)items[0]["Key"];
 
             url = "http://localhost:40010/1/reporttemplates/" + reportItem + "/run";
             var requestReportRun = WebRequest.Create(url);
@@ -73,6 +74,7 @@ namespace RestSample
 
             postData = "{'ResultType': 'Pdf'}";
             Request(requestReportRun, postData);
+
             // Check Result
             var resultRun = GetResponseResult(requestReportRun);
 
