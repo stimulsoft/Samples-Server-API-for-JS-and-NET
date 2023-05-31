@@ -35,27 +35,6 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Client, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Report.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Server, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Server.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Server.Connect, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Server.Connect.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Server.Objects, Version=2023.1.8.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Connect.API.2023.1.8\lib\net452\Stimulsoft.Server.Objects.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -66,6 +45,27 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Stimulsoft.Base, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Client, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Data, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Server.Connect, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Server.Connect.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Server, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Server.Objects, Version=2023.2.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Connect.API.2023.2.5\lib\net452\Stimulsoft.Server.Objects.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
