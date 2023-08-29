@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show All Workspaces", "Show
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copy Report Template to Other Workspaces", "Copy Report Template to Other Workspaces\Copy Report Template to Other Workspaces.csproj", "{7EA6C574-6D64-486E-966B-90D7E80C6066}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Check Long Task Status", "Check Long Task Status\Check Long Task Status.csproj", "{725774BB-6D21-4445-A92F-CE900CB5E3CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7EA6C574-6D64-486E-966B-90D7E80C6066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA6C574-6D64-486E-966B-90D7E80C6066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA6C574-6D64-486E-966B-90D7E80C6066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725774BB-6D21-4445-A92F-CE900CB5E3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725774BB-6D21-4445-A92F-CE900CB5E3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725774BB-6D21-4445-A92F-CE900CB5E3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725774BB-6D21-4445-A92F-CE900CB5E3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
