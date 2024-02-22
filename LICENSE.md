@@ -4,7 +4,7 @@ This Stimulsoft, ("STIMULSOFT") Server License Agreement ("SLA") is a legal agre
 
 STIMULSOFT grants to CUSTOMER, a personal, nonexclusive license to install and use the SOFTWARE for the sole purposes of testing, creating, designing, and sharing reports, dashboards, and forms which CUSTOMER creates.
 
-By installing, copying, or otherwise using the SOFTWARE, CUSTOMER agrees to be bound by the terms of this SLA. If CUSTOMER doed not agree to any part of the terms of this SLA, DO NOT INSTALL, USE, DISTRIBUTE IN ANY MANNER, OR REPLICATE IN ANY MANNER, ANY PART, FILE OR PORTION OF THE SOFTWARE.
+By installing, copying, or otherwise using the SOFTWARE, CUSTOMER agrees to be bound by the terms of this SLA. If CUSTOMER does not agree to any part of the terms of this SLA, DO NOT INSTALL, USE, DISTRIBUTE IN ANY MANNER, OR REPLICATE IN ANY MANNER, ANY PART, FILE OR PORTION OF THE SOFTWARE.
 
 All SOFTWARE is licensed, not sold.
 
@@ -69,4 +69,4 @@ This license is subject to change without notice in future updates to the SOFTWA
 
 CUSTOMER ACKNOWLEDGES THAT CUSTOMER HAVE READ THIS AGREEMENT, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. CUSTOMER FURTHER AGREE THAT IT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US, WHICH SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.
 
-#### Copyright (C) 2003-2023 Stimulsoft, All rights reserved.
+#### Copyright (C) 2003-2024 Stimulsoft, All rights reserved.
