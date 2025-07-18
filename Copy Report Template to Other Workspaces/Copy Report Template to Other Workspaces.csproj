@@ -6,6 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="Stimulsoft.Connect.API" Version="2025.2.5" />
+    <PackageReference Include="Stimulsoft.Connect.API" Version="2025.3.2" />
   </ItemGroup>
 </Project>
