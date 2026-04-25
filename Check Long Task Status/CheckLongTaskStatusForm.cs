@@ -109,10 +109,10 @@ namespace CheckLongTaskStatus
                 new JProperty("ExportSet", new JObject
                 {
                     new JProperty("Ident", "Pdf"),
-                    new JProperty("PageRange", new JObject { }),
-                    new JProperty("EmbeddedFonts", "false"),
+                    new JProperty("PageRange", "All"),
+                    new JProperty("EmbeddedFonts", false),
                     new JProperty("DitheringType", "None"),
-                    new JProperty("PdfACompliance", "false"),
+                    new JProperty("PdfACompliance", false)
                 }),
             });
 
