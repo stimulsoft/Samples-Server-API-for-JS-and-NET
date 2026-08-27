@@ -1,6 +1,6 @@
 ## STIMULSOFT SERVER LICENSE AGREEMENT
 
-**Last Updated: 2026-06-16**
+**Last Updated: 2026-08-27**
 
 This CloudReports sp. z o.o. (dba Stimulsoft) ("STIMULSOFT") Server License Agreement ("SLA") is a legal agreement between you ("CUSTOMER") and STIMULSOFT for STIMULSOFT SERVER, including software, demos, intermediate files, media, printed materials, and online or electronic documentation (the "SOFTWARE") contained in this installation file.
 
@@ -47,7 +47,7 @@ The SOFTWARE is licensed under the following tiers, each of which determines the
 - Enterprise - up to 15 (fifteen) Creators;
 - Worldwide - an unlimited number of Creators.
 
-"White Label" means the right of CUSTOMER to remove or replace STIMULSOFT trademarks, logos, and other branding elements from the user interface of the SOFTWARE as installed and operated by CUSTOMER, subject to the configuration options provided by the SOFTWARE for that purpose. The White Label entitlement is included with the Enterprise tier and any higher tier, and does not extend to STIMULSOFT trademarks, logos, or branding outside of such configurable user-interface elements.
+"White Label" means the right of CUSTOMER to remove or replace STIMULSOFT trademarks, logos, and other branding elements from the user interface of the SOFTWARE as installed and operated by CUSTOMER, subject to the configuration options provided by the SOFTWARE for that purpose. The White Label entitlement is included with the Team tier and any higher tier, and does not extend to STIMULSOFT trademarks, logos, or branding outside of such configurable user-interface elements.
 
 CUSTOMER must ensure that the number of Creators connected to the server at any time does not exceed the licensed tier. The number of Authorized Users and Unauthorized Users is not limited by the licensed tier.
 
