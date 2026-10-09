@@ -1,6 +1,6 @@
 ## STIMULSOFT SERVER LICENSE AGREEMENT
 
-**Last Updated: 2026-10-02**
+**Last Updated: 2026-10-08**
 
 This CloudReports sp. z o.o. (dba Stimulsoft) ("STIMULSOFT") Server License Agreement ("SLA") is a legal agreement between you ("CUSTOMER") and STIMULSOFT for STIMULSOFT SERVER, including software, demos, intermediate files, media, printed materials, and online or electronic documentation (the "SOFTWARE") contained in this installation file.
 
@@ -17,7 +17,7 @@ SOFTWARE is delivered as an installation package. Until activation, SOFTWARE ope
 
 If CUSTOMER wants to transfer the installation to another server, CUSTOMER should deactivate the current server installation and then activate the SOFTWARE on the new server.
 
-Where CUSTOMER's environment does not permit communication with the Stimulsoft Activation Server (for example, in air-gapped, isolated, or restricted-network environments), offline activation may be available by request. CUSTOMER may contact STIMULSOFT at the email address set out in the footer of this SLA to request offline activation procedures.
+Where CUSTOMER's environment does not permit communication with the Stimulsoft Activation Server (for example, in air-gapped, isolated, or restricted-network environments), offline activation may be available by request. CUSTOMER may contact STIMULSOFT at the email address set out in the NOTICES Section below to request offline activation procedures.
 
 ## TRIAL VERSION
 Until CUSTOMER activates the SOFTWARE in accordance with the ACTIVATION Section, the SOFTWARE operates as a trial version under the following conditions:
@@ -62,7 +62,7 @@ The license granted under this SLA is perpetual. Upon expiration of the Subscrip
 
 CUSTOMER may renew the Subscription at any time. STIMULSOFT may publish a grace period and renewal discount on its website. Renewal prices, grace-period terms, and any tier-upgrade pricing in effect at the time of renewal are available at STIMULSOFT's online store at https://www.stimulsoft.com/en/online-store.
 
-If CUSTOMER has enabled auto-renewal or has agreed to automatic renewal at the time of purchase, the Subscription will automatically renew for an additional twelve (12) month period at the then-current published price unless CUSTOMER cancels auto-renewal before the renewal date. CUSTOMER may cancel auto-renewal at any time through CUSTOMER's STIMULSOFT account or by written notice to STIMULSOFT at the email address set out in the footer of this SLA. Cancellation of auto-renewal does not affect the current Subscription period, which shall continue until its scheduled expiration. STIMULSOFT will provide renewal notification by email to the address associated with CUSTOMER's STIMULSOFT account thirty (30) days prior to the renewal date where required by applicable law or where auto-renewal is enabled. Where CUSTOMER is a consumer within the meaning of applicable EU/EEA consumer-protection law, auto-renewal applies only with CUSTOMER's express consent given at or prior to the time of initial purchase, and CUSTOMER may withdraw such consent at any time.
+If CUSTOMER has enabled auto-renewal or has agreed to automatic renewal at the time of purchase, the Subscription will automatically renew for an additional twelve (12) month period at the then-current published price unless CUSTOMER cancels auto-renewal before the renewal date. CUSTOMER may cancel auto-renewal at any time through CUSTOMER's STIMULSOFT account or by written notice to STIMULSOFT at the email address set out in the NOTICES Section below. Cancellation of auto-renewal does not affect the current Subscription period, which shall continue until its scheduled expiration. STIMULSOFT will provide renewal notification by email to the address associated with CUSTOMER's STIMULSOFT account thirty (30) days prior to the renewal date where required by applicable law or where auto-renewal is enabled. Where CUSTOMER is a consumer within the meaning of applicable EU/EEA consumer-protection law, auto-renewal applies only with CUSTOMER's express consent given at or prior to the time of initial purchase, and CUSTOMER may withdraw such consent at any time.
 
 ## RESTRICTIONS
 CUSTOMER may not rent, lease, lend, copy, modify, sublicense, time-share, or electronically transmit or receive the SOFTWARE, except as provided in this SLA or as directed by STIMULSOFT. The source code for the SOFTWARE is not provided.
@@ -91,7 +91,13 @@ Without prejudice to any other rights or remedies, STIMULSOFT may terminate this
 
 For any other breach capable of cure, STIMULSOFT may give CUSTOMER written notice describing the breach and a reasonable period of not less than fourteen (14) days to cure it. If CUSTOMER fails to cure the breach within that period, STIMULSOFT may terminate this SLA.
 
+If a breach of this SLA, including use beyond the licensed number of servers or Creators, remains uncured after the cure period described above, STIMULSOFT may suspend the license keys, activation credentials, and access to activation services associated with the affected license until the breach is cured. Suspension may apply to all installations and activations under that license. STIMULSOFT will notify CUSTOMER in writing of the suspension and its reasons no later than at the time of suspension and will lift it without undue delay once the breach is cured, including by bringing use within the licensed limits, purchasing additional licenses, or upgrading to an appropriate license tier. Suspension does not terminate this SLA and does not limit STIMULSOFT's right to terminate it under this Section or to exercise any other rights or remedies.
+
+If CUSTOMER commits a breach of the same kind within twelve (12) months after receiving a notice under this Section, STIMULSOFT may suspend the affected license as described above or terminate this SLA immediately, without a further cure period.
+
 Upon termination, CUSTOMER must immediately cease all use of the SOFTWARE, uninstall the SOFTWARE, destroy all copies of the SOFTWARE and related documentation in CUSTOMER's possession or control, and, upon STIMULSOFT's request, certify such destruction in writing. STIMULSOFT may disable license keys, activation credentials, or access to activation services associated with the terminated license.
+
+Termination or suspension for CUSTOMER's breach does not entitle CUSTOMER to a refund of any fees paid for the affected license or its associated Subscription, except where required by applicable mandatory law.
 
 ## DISCLAIMER OF WARRANTY
 NO WARRANTIES. STIMULSOFT EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE SOFTWARE. THE SOFTWARE AND ANY RELATED DOCUMENTATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE REMAINS WITH CUSTOMER.
@@ -102,9 +108,9 @@ To the maximum extent permitted by applicable law, in no event shall STIMULSOFT 
 In no event shall STIMULSOFT's total aggregate liability under or in connection with this SLA, whether in contract, tort (including negligence), statute, or otherwise, exceed the lesser of:
 - (i) the greater of:
 (a) the price actually paid by CUSTOMER to STIMULSOFT for the SOFTWARE license giving rise to the claim; and
-(b) one hundred euro (EUR 100) for CUSTOMERS domiciled or established in the European Union or the European Economic Area, or one hundred US dollars (USD 100) for CUSTOMERS domiciled or established in any other jurisdiction; and
+(b) one hundred euros (EUR 100) for CUSTOMERS domiciled or established in the European Union or the European Economic Area, or one hundred US dollars (USD 100) for CUSTOMERS domiciled or established in any other jurisdiction; and
 
-- (ii) one thousand euro (EUR 1,000) for CUSTOMERS domiciled or established in the European Union or the European Economic Area, or one thousand US dollars (USD 1,000) for CUSTOMERS domiciled or established in any other jurisdiction.
+- (ii) one thousand euros (EUR 1,000) for CUSTOMERS domiciled or established in the European Union or the European Economic Area, or one thousand US dollars (USD 1,000) for CUSTOMERS domiciled or established in any other jurisdiction.
 
 The limitations and exclusions of liability set out in this Section apply equally to liability for negligence (whether by act or omission) and to all other theories of liability.
 
@@ -133,7 +139,7 @@ STIMULSOFT does not guarantee any response time, availability, or resolution out
 ## ACCOUNT SECURITY
 CUSTOMER is responsible for maintaining the confidentiality of CUSTOMER's STIMULSOFT account credentials, license keys, activation credentials, server administrator credentials, and any authentication tokens or codes. CUSTOMER is responsible for all activities that occur in or through CUSTOMER's account or server installation, whether or not authorized by CUSTOMER.
 
-CUSTOMER must notify STIMULSOFT immediately by email at the address set out in the footer of this SLA upon becoming aware of any unauthorized access to or use of CUSTOMER's account, credentials, license keys, activation credentials, or server installation.
+CUSTOMER must notify STIMULSOFT immediately by email at the address set out in the NOTICES Section below upon becoming aware of any unauthorized access to or use of CUSTOMER's account, credentials, license keys, activation credentials, or server installation.
 
 STIMULSOFT is not responsible for any loss or damage to CUSTOMER or to any third party incurred as a result of unauthorized access to or use of CUSTOMER's account, credentials, or server installation, except to the extent directly caused by STIMULSOFT's breach of this SLA or applicable mandatory law.
 
@@ -155,7 +161,7 @@ STIMULSOFT does not sell, lease, rent, or trade personal data to third parties f
 
 STIMULSOFT retains the personal data listed above for the duration of the license and for such further period as is necessary to comply with applicable tax, accounting, and statute-of-limitation requirements under Polish and European Union law.
 
-Individuals whose personal data is processed by STIMULSOFT under this SLA have the rights of access, rectification, erasure, restriction of processing, data portability, and objection under Articles 15 to 22 of the GDPR, and the right to lodge a complaint with a supervisory authority (in Poland, the President of the Personal Data Protection Office (Prezes Urzędu Ochrony Danych Osobowych)). Requests may be submitted to STIMULSOFT at the email address set out in the footer of this SLA.
+Individuals whose personal data is processed by STIMULSOFT under this SLA have the rights of access, rectification, erasure, restriction of processing, data portability, and objection under Articles 15 to 22 of the GDPR, and the right to lodge a complaint with a supervisory authority (in Poland, the President of the Personal Data Protection Office (Prezes Urzędu Ochrony Danych Osobowych)). Requests may be submitted to STIMULSOFT at the email address set out in the NOTICES Section below.
 
 STIMULSOFT may send CUSTOMER transactional, licensing, activation, security, account, and support communications necessary for the performance of this SLA. 
 
@@ -168,6 +174,13 @@ If CUSTOMER is required by law to withhold or deduct any tax from any amount pay
 
 CUSTOMER shall be solely responsible for the assessment, reporting, and payment of any taxes for which it is liable under this Section, and shall indemnify STIMULSOFT against any liability, penalty, interest, or expense incurred by STIMULSOFT as a result of CUSTOMER's failure to comply with this Section.
 
+## EXPORT RESTRICTIONS
+CUSTOMER must comply with all applicable laws and regulations regarding economic sanctions, export controls, import regulations, restrictive measures, and trade embargoes (collectively, "Sanctions"), including those administered by the European Union and the United States.
+
+CUSTOMER represents and warrants that CUSTOMER is not a person or entity targeted by Sanctions, nor is CUSTOMER owned or controlled by, or acting on behalf of, any person or entity targeted by Sanctions.
+
+CUSTOMER must immediately report any concerns of non-compliance regarding Sanctions to STIMULSOFT at the email address set out in the NOTICES Section below.
+
 ## U.S. GOVERNMENT END USERS
 The SOFTWARE and the related documentation are "commercial items" as that term is defined at 48 C.F.R. 2.101, consisting of "commercial computer software" and "commercial computer software documentation" as such terms are used in 48 C.F.R. 12.212 and 48 C.F.R. 227.7202.
 
@@ -176,7 +189,7 @@ Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4, al
 Use, duplication, or disclosure by the U.S. Government is subject to the restrictions set forth in this SLA and to the restrictions set forth in DFARS 227.7202 (Commercial Computer Software - Rights) and FAR 52.227-19 (Commercial Computer Software - Restricted Rights), as applicable.
 
 ## GENERAL PROVISIONS
-This SLA may only be modified by a written amendment signed by both parties. If any remedy provided is determined to have failed for its essential purpose, all limitations of liability and exclusions of damages set forth in the LIMITATION OF LIABILITY Section shall remain in effect.
+This SLA may only be modified in accordance with the MISCELLANEOUS Section below, or by a written instrument signed by CUSTOMER and an authorized officer of STIMULSOFT. If any remedy provided is determined to have failed for its essential purpose, all limitations of liability and exclusions of damages set forth in the LIMITATION OF LIABILITY Section shall remain in effect.
 
 CUSTOMER acknowledges that STIMULSOFT's intellectual property rights in the SOFTWARE are protected by Polish, European Union, and international copyright and intellectual property laws, including treaties to which the Republic of Poland is a party. CUSTOMER agrees not to take any action that would impair such rights. If any provision of this SLA is held to be invalid or unenforceable under the mandatory law of CUSTOMER's jurisdiction, that provision shall be deemed modified to the minimum extent necessary to comply with such law, and the remaining provisions shall continue in full force and effect.
 
